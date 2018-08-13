@@ -14,7 +14,7 @@ namespace SQLiteWithEF
         public DatabaseContext() :
             base(new SQLiteConnection()
             {
-                ConnectionString = new SQLiteConnectionStringBuilder() { DataSource = "C:\\Users\\usuario\\Desktop\\prueba.db", ForeignKeys = true }.ConnectionString
+                ConnectionString = new SQLiteConnectionStringBuilder() { DataSource = "prueba.db", ForeignKeys = true }.ConnectionString
             }, true)
         {
         }
