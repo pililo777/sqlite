@@ -27,6 +27,9 @@ namespace SQLiteWithEF
 
         [Column(Name = "Designation", DbType = "VARCHAR")]
         public string Designation { get; set; }
+
+        [Column(Name = "fecha", DbType = "VARCHAR")]
+        public string fecha { get; set; }
     }
 }
 
